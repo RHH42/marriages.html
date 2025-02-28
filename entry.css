@@ -1,0 +1,386 @@
+/*
+Defines the overall page layout or background 
+*/
+.entry-page
+{
+  width: 1220px;
+  height: 560px;
+  border-style: ridge;
+  border-width: 7px;
+  border-radius: 20px;
+  border-color: brown;
+  margin-left: 15px;
+  background-color: rgb(245, 225, 210);
+  font-family: "Birthstone";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*
+Defines area to contain page headline  
+*/
+.masthead
+{
+  text-align: center;
+  width: 600px;
+  height: 43px;
+  font-size: 22px;
+  line-height: 95%;;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: brown;
+  border-radius: 7cqw;
+  margin-top: 10px;
+  margin-left: 300px;
+  background-color: rgb(246, 234, 223);
+  padding-top: 8px;
+} 
+
+/*
+Defines how Surname Line title text is displayed
+*/
+.masthead-line1
+{       
+  
+  font-size: 32px;
+  font-weight: bold;
+  
+}
+
+.masthead-line2
+{
+  font-size: 20px;
+}
+
+/*
+Defines box around data entry form for; used on all data entry forms
+*/
+.entry-box
+{       
+  width: 760px;
+  height: 350px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: bold;
+  border-style: ridge;
+  border-color: brown; 
+  border-width: 3px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.entry-offspring-box
+{       
+  width: 520px;
+  height: 165px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 18px;
+  font-weight: bold;
+  border-style: ridge;
+  border-color: brown; 
+  border-width: 3px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.entry-spouseName-box
+{
+  width: 520px;
+  height: 165px;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 18px;
+  font-weight: bold;
+  border-style: ridge;
+  border-color: brown; 
+  border-width: 3px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} 
+
+.entry-marriage.box
+{  
+  width: 520px;
+  height: 165x;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto; 
+  font-size: 18px;
+  font-weight: bold;
+  border-style: ridge;
+  border-color: brown; 
+  border-width: 3px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form 
+{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:rgb(242, 225, 225);
+  border-radius: 5px;
+}
+
+.firstName
+{
+  max-width: 100%;
+  margin: 0 auto;
+  border-style: ridte;
+  border-color: brown;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.middleName
+{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.lastName
+{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.suffix
+{
+  max-width: 15px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.nickname
+{
+  max-width: 100%;
+  margin: 0 auto;
+  border-style: ridte;
+  border-color: brown;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.birth-order
+{
+  data: jr;
+}
+
+.label 
+{
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input
+{
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid brown;
+  border-radius: 4px;
+}
+
+.grid-container 
+{
+  display: grid;
+  width: 1200px;
+  height: 480px;
+  margin-top: 125px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  line-height: 95%;
+  font-family: Birthstone;
+  font-weight: 500;
+  grid-template-rows: 68px 70px 190px 50px;
+  grid-template-columns: 320px 36px 227px 55px 227px 38px 227px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.grid-container > div
+{
+  width: auto; 
+  height: auto;
+  padding-top: 1px;
+  padding-left: 4px;
+}
+
+.photo-sharing
+{
+  width:auto;
+  height: auto;
+}
+
+.photo-dropbox
+{
+  width:100px;
+  height:100px;
+  margin-left: 162px;
+  margin-top: -20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: brown;
+  border-radius: 4px;
+}
+
+.labels
+{
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  height: 20px;
+  border-style: solid;
+  border-color: brown;
+  border-width: 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.birth-data
+{
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  border-style: solid;
+  border-color: brown;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.marriage-label
+{
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  height: 20px;
+  border-style: solid;
+  border-color: brown;
+  border-width: 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.marriage-data
+{
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 5;
+  grid-column-end: 5;
+  border-style: solid;
+  border-color: brown;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.death-label
+{
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 6;
+  grid-column-end: 6;
+  height: 20px;
+  border-style: solid;
+  border-color: brown;
+  border-width: 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.death-data
+{
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 7;
+  grid-column-end: 7;
+  border-style: solid;
+  border-color: brown;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.children
+{
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 8;
+  border-style: solid;
+  border-color: brown;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.biography
+{
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 8;
+  border-style: solid;
+  border-color: brown;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.thumbnails
+{
+  grid-row-start: 4;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 8;
+  border-style: solid;
+  border-color: brown;
+  border-width: 2px;
+  border-radius: 5px;
+  }
+
+.enter-button 
+{
+  width: 67px;
+  height:25px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  /*border-style: solid;
+  border-color: brown;
+  border-width: 3px;
+  border-radius: 4px;*/
+}
+
+.required::after 
+{
+  content: ' *';
+  color: black;
+}
